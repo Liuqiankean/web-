@@ -1,5 +1,4 @@
-bash,ÃüÁî£ºgit clone ÓÒ¼ü£¬paste£¬Õ³ÌùµØÖ·¡£https://github.com/Liuqiankean/web-.git
-»Ø³µ£¬°ó¶¨Íê³É
-³É¹¦»áÓĞÒ»¸öÒş²ØµÄÎÄ¼ş¼Ğgit£¬ÔÙÏò¸ÃÎÄ¼ş´«¶«Î÷¡£
-GUI¿ÉÊÓ»¯½çÃæ£¬commitÔÙput
-
+bash,å‘½ä»¤ï¼šgit clone å³é”®ï¼Œpasteï¼Œç²˜è´´åœ°å€ã€‚https://github.com/Liuqiankean/web-.git
+å›è½¦ï¼Œç»‘å®šå®Œæˆ
+æˆåŠŸä¼šæœ‰ä¸€ä¸ªéšè—çš„æ–‡ä»¶å¤¹gitï¼Œå†å‘è¯¥æ–‡ä»¶ä¼ ä¸œè¥¿ã€‚
+GUIå¯è§†åŒ–ç•Œé¢ï¼Œcommitå†push ä¸Šå»

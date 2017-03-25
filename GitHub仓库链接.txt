@@ -1,4 +1,0 @@
-bash,命令：git clone 右键，paste，粘贴地址。https://github.com/Liuqiankean/web-.git
-回车，绑定完成
-成功会有一个隐藏的文件夹git，再向该文件传东西。
-GUI可视化界面，commit再push 上去

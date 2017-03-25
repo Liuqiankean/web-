@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>物资登记表</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<table border="1" bordercolor="black" cellpadding="0xp" cellspacing="0xp" width="600xp" height="100xp">
+			<caption>物资登记表</caption>
+			<tr>
+				<th colspan="2">物资类别</th>
+				<th colspan="2"></th>
+				<th colspan="2">名称</th>
+				<th colspan="2"></th>
+			</tr>
+			<tr>
+				<td colspan="8" align="center">入库领用记录</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">日期</td>
+				<td rowspan="2" align="center">单位</td>
+				<td colspan="2" rowspan="2" align="center">入库数</td>
+				<td rowspan="2" align="center">领用数</td>
+				<td rowspan="2" align="center">库存</td>
+				<td rowspan="2" align="center">经手人</td>
+			</tr>
+			<tr>
+				<td align="center">月</td>
+				<td align="center">日</td>
+			</tr>
+			<tr>
+				<td><br></td>
+				<td><br></td>
+				<td><br></td>					
+				<td colspan="2"><br></td>
+				<td><br></td>
+				<td><br></td>
+				<td><br></td>				
+			</tr>
+			<tr>
+				<td><br></td>
+				<td><br></td>
+				<td><br></td>					
+				<td colspan="2"><br></td>
+				<td><br></td>
+				<td><br></td>
+				<td><br></td>				
+			</tr>
+			<tr>
+				<td><br></td>
+				<td><br></td>
+				<td><br></td>					
+				<td colspan="2"><br></td>
+				<td><br></td>
+				<td><br></td>
+				<td><br></td>				
+			</tr>
+		</table>
+	<body/>
+<html/>

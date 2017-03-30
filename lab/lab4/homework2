@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>登录页面</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<table border="1" bordercolor="#e0e0e0" cellspacing="0xp" cellpadding="3px">
+			<caption><h2>登录页面</h2></caption>
+			<tr>
+				<td colspan="6">
+					<img src="image\suc.jpg" alt="pic" width="40px" height="20px"/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<img src="E:\学习资料\web\实验\lab3\image\suc2.jpg" alt="pic" width="40px" height="20px"/>
+				</td>
+			</tr>
+
+	 		<tr>
+				<td colspan="1">用户名：</td>
+				<td colspan="5">
+					<form action="index.php" method="get">
+					<input type="text" name="name"/>
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>密码：</td>
+				<td>
+					<form action="index.php" method="get">
+						<input type="password" name="password"/>
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>确认密码：</td>
+				<td>
+					<form action="index.php" method="get">
+						<input type="password" name="password"/>
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>性别：</td>
+				<td>
+					<form action="index.php" method="get">
+						<input type="radio" name="sex" value="female"/>女
+						<input type="radio" name="sex" value="male"/>男
+					</form>
+				</td>
+			</tr>
+            
+			<tr>
+				<td colspan="1">生日：</td>
+				<td colspan="5">
+					<form action="index.php" method="get">
+						<select name="type" id="type">
+							<option value="Gregorian calendar">公历</option>
+							<option value="lunar calendar">农历</option>
+						</select>
+						<select name="year" id="year">
+							<option value="">年</option>
+							<option value="1995">1995</option>
+							<option value="1996">1996</option>
+							<option value="1997">1997</option>
+							<option value="1998">1998</option>
+							<option value="1999">1999</option>
+							<option value="2000">2000</option>
+						</select>
+						<select name="month" id="month">
+							<option value="">月</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+						</select>
+						<select name="day" id="day">
+							<option value="">日</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>
+							<option value="17">17</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+							<option value="20">20</option>
+							<option value="21">21</option>
+							<option value="22">22</option>
+							<option value="23">23</option>
+							<option value="24">24</option>
+							<option value="25">25</option>
+							<option value="26">26</option>
+							<option value="27">27</option>
+							<option value="28">28</option>
+							<option value="29">29</option>
+							<option value="30">30</option>
+							<option value="31">31</option>
+						</select>
+					</form>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="1">所在地：</td>
+				<td>
+					<form action="index.php" method="get">
+						<select name="country" id="country">
+							<option value="address">中国</option>
+							<option value="address">其他</option>
+						</select>
+						<select name="province" id="province">
+							<option value="address">河北</option>
+							<option value="address">其他</option>
+						</select>
+						<select name="city" id="city">
+							<option value="address">石家庄</option>
+							<option value="address">其他</option>
+						</select>
+					</form>
+				</td>
+			</tr>
+
+			<tr>
+				<td>验证码：</td>
+				<td>
+					<form action="index.php" method="get">
+						<input type="text" name="verification code"/>
+						<img src="image\2012100516070577.png" width="100px" height="40px">
+					</form>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="1">证件类型：</td>
+				<td colspan="5">
+					<form action="index.php" method="get">
+						<select name="zjtype" id="ID Type">
+							<option value="identity card">身份证</option>
+							<option value="another card">其他</option>
+						</select>
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="1">证件号：</td>
+				<td colspan="5">
+					<form action="index.php" method="get">
+						<input type="text" name="ID Number"/>
+					</form>
+				</td>
+			</tr>
+            
+            <tr>
+				<td colspan="1">爱好：</td>
+				<td colspan="5">
+					<form action="index.php" method="get">
+						<input type="checkbox" name="hobby[]"/>音乐
+						<input type="checkbox" name="hobby[]"/>读书
+						<input type="checkbox" name="hobby[]"/>跳舞
+						<input type="checkbox" name="hobby[]"/>下棋
+						<input type="checkbox" name="hobby[]"/>其他
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="1">说明：</td>
+				<td colspan="5">
+					<form action="index.php" method="get">
+						<textarea cols="30px" rows="5px"></textarea>
+					</form>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="1">上传头像</td>
+				<td colspan="5">
+					<form action="index.php" method="get">
+						<input type="file" name="head portrait"/>
+					</form>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="6" align="center">
+					<form action="index.php" method="get">
+						<input type="submit" name="submit"/>
+						<input type="reset" name="reset"/>
+						<input type="button" value="按钮"/>
+					</form>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

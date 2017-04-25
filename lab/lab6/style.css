@@ -1,0 +1,32 @@
+html{
+	font-size:12px;
+	font-family:'Arial';
+	color:gray;
+	line-height:2em;
+}
+
+a:link{
+	color:#727272;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+.text{
+	font:bold 14px 'Arial';
+	color:#b9f605;
+}
+#white:link{
+	color:white;
+}
+
+#white:hover{
+	text-decoration:none;
+	color:#b9f605;
+}
+
+#last{
+	color:#fdb306;
+}

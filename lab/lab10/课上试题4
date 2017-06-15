@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<style>
+			div{
+				width:680px;
+				height:210px;
+				border:gray solid 1px;
+				font-size:20px;
+				color:black;
+				font-family:"微软雅黑";
+			}
+			div div{
+				width:500px;
+				height:200px;
+				padding:5px;
+				margin:5px;
+				border:none;
+				float:left;
+
+			}
+			img{
+				margin:5px;
+				width:150px;
+				height:200px;
+				float:left;
+			}
+			p{
+				font-size:14px;
+				color:black;
+				font-family:"宋体";
+				text-indent: 2em;
+			}
+			h6{
+				font-size:12px;
+				color:#dd5555;
+				font-family:"宋体";
+			}
+			#sp{
+				font-color:blue;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<img src="https://p1.ssl.qhmsg.com/dr/220__/t01e442194463849580.jpg" alt="宋仲基">
+			<div>
+				姓名：宋仲基
+				<h6>生日:1985年9月19日</h6>
+				<p>宋仲基，1985年9月19日出生于韩国大田广域市，韩国演员、主持人。2008年出演电影《霜花店》进入演艺圈，之后在电视剧、电影、综艺主持多方发展。2009年在音乐节目Music Bank中担任主持，后在艺能节目《Running man》中担任固定嘉宾（E01——E41）。2010年出演电视剧《成均馆绯闻》具龙河一角，获得KBS演技大赏最佳人气奖。</p>
+			</div>
+		</div>
+	</body>
+</html>

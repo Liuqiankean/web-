@@ -3,13 +3,13 @@
 	<head>
 		<meta charset="UTF-8"/>
 		<title>多肉网（列表页）</title>
-		<link rel="stylesheet" href=".\liststyle.css">
+		<link rel="stylesheet" href="csss\liststyle.css"/>
 	</head>
 	<body>
 		<div id="leaddiv">
 			<table class="headtd">
 				<th>
-					<td><img src=".\149795224474837d.png" alt="" id="firstlogo"></td>
+					<td><img src="image\149795224474837d.png" alt="" id="firstlogo"></td>
 					<td><a href="#" class="tha">|&nbsp;&nbsp;&nbsp;&nbsp;首页&nbsp;&nbsp;&nbsp;&nbsp;|</a></td>
 					<td><a href="#" class="tha">|&nbsp;&nbsp;&nbsp;&nbsp;种类介绍&nbsp;&nbsp;&nbsp;&nbsp;|</a></td>
 					<td><a href="#" class="tha">|&nbsp;&nbsp;&nbsp;&nbsp;培养方法&nbsp;&nbsp;&nbsp;&nbsp;|</a></td>
@@ -20,9 +20,9 @@
 				</th>
 			</table>
 		</div>
-		<img src=".\5645621765200_副本.jpg" id="banner" alt="">
+		<img src="image\5645621765200_副本.jpg" id="banner" alt="">
 		<div id="middle1">
-			<a href="#" id="tha"><h1>>&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;>>种类介绍<<&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;&nbsp;<</h1>
+			<a href="#" id="tha"><h1>>&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;>>种类介绍<<&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;&nbsp;<</h1>
 			<table class="middletable"></a>
 				<tr>
 					<td class="middletd"><a href="#"><img src="http://img5.imgtn.bdimg.com/it/u=949359766,767713807&fm=26&gp=0.jpg" alt=""></a><br/>多肉1</td>
@@ -40,7 +40,7 @@
 			</table>
 		</div>
 		<div id="middle2">
-			<a href="#" id="tha"><h1>>&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;>>培养方法<<&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;&nbsp;<</h1></a>
+			<a href="#" id="tha"><h1>>&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;>>培养方法<<&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;&nbsp;<</h1></a>
 			<table class="middletable">
 				<tr>
 					<td class="middletd"><a href="#"><img src="http://img2.imgtn.bdimg.com/it/u=3482977969,2285218433&fm=26&gp=0.jpg" alt=""></a><br/>首选为煤渣土，从多年的种植对比来看,用煤渣的植物要比不用的抗性更强，……</td>
@@ -56,7 +56,7 @@
 			</table>
 		</div>
 		<div id="middle3">
-			<a href="#" id="tha"><h1>>&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;>>创意达人<<&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;&nbsp;<</h1></a></a>
+			<a href="#" id="tha"><h1>>&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;>>创意达人<<&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;&nbsp;<</h1></a></a>
 			<table class="middletable">
 				<tr>
 					<td class="middletd"><a href="#"><img src="http://img4.imgtn.bdimg.com/it/u=1006692513,3002461495&fm=15&gp=0.jpg" alt=""></a><br/>达人作品1</td>

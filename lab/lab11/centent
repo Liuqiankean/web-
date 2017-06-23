@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>多肉网（列表页）</title>
+		<link rel="stylesheet" href="E:\学习资料\web\实验\多肉\lab\cententstyle.css">
+	</head>
+	<body>
+		<div id="leaddiv">
+			<table class="headtd">
+				<th>
+					<td><img src="E:\学习资料\web\实验\多肉\lab\149795224474837d.png" alt="" id="firstlogo"></td>
+					<td><a href="#" class="tha">|&nbsp;&nbsp;&nbsp;&nbsp;首页&nbsp;&nbsp;&nbsp;&nbsp;|</a></td>
+					<td><a href="#" class="tha">|&nbsp;&nbsp;&nbsp;&nbsp;种类介绍&nbsp;&nbsp;&nbsp;&nbsp;|</a></td>
+					<td><a href="#" class="tha">|&nbsp;&nbsp;&nbsp;&nbsp;培养方法&nbsp;&nbsp;&nbsp;&nbsp;|</a></td>
+					<td><a href="#" class="tha">|&nbsp;&nbsp;&nbsp;&nbsp;创意空间&nbsp;&nbsp;&nbsp;&nbsp;|</a></td>
+					<td><a href="#" class="tha">|&nbsp;&nbsp;&nbsp;&nbsp;联系我们&nbsp;&nbsp;&nbsp;&nbsp;|</a></td>
+					<td><input type="text" class="box" class="inputText" placeholder="搜索"  name="s" id="s" />
+          			<button class="btn" title="Submit Search">搜索</button></td>
+				</th>
+			</table>
+		</div>
+		<img src=".\t013cada955f3ef6b11.jpg" id="banner" alt="">
+		<div id="middlebig1">
+			<div id="middlelittle1-1">
+				<img src="http://img4.imgtn.bdimg.com/it/u=1530742413,2609548483&fm=26&gp=0.jpg" alt=""/>
+			</div>
+			<div id="middlelittle1-2">
+				
+			</div>
+		</div>
+		<br/>
+		<hr/>
+		<div id="middlebig2">
+			
+			<div id="middlelittle2-1">
+				
+			</div>
+		</div>
+
+		<div id="healdiv">
+			<p>商务合作电话:888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;版权所有，盗版必究</p>
+		</div>
+	</body>
+</html>

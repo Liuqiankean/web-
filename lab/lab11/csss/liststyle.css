@@ -1,0 +1,98 @@
+#leaddiv{
+	width:1340px;
+	height:30px;
+	float:left;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+table{
+	width:1340px;
+	height:70px;
+	text-align: center;
+}
+#banner{
+	width:800px;
+	position:absolute;
+	top:120px;
+	left:23%;
+}
+#firstlogo{
+	width:200px;
+	height:auto;
+}
+a{
+	text-decoration:none;
+	font-family:"微软雅黑";
+	font-weight:solid;
+	color:#669966;
+	font-size:22px;
+}
+.headtd{
+	background-color:#669966; 
+}
+.tha{
+	color:white;
+	font-size:22px;	
+}
+td:hover{
+	background-color: rgba(192,192,192,0.3);
+}
+
+#healdiv{
+	width:1340px;
+	height:60px;
+	background-color:#669966;
+	text-align:center;
+	position:absolute;
+	top:1900px;
+}
+body{
+	font-family:"微软雅黑";
+}
+div h1{
+	display: block;
+	font-size:20px;
+	text-align:center;
+	font-weight:solid；
+}
+.middletd{
+	text-align:middle;
+	color:gray;
+	padding:5px;
+	font-size:12px;
+	width:120px;
+	height:170px;
+}
+#middle1{
+	position:absolute;
+	top:400px;
+	color:#669966;
+	width:100%;
+	background-color: rgba(192,192,192,0.2);
+}
+#middle2{
+	position:absolute;
+	top:900px;
+	width:100%;
+	color:#669966;
+}
+#middle3{
+	position:absolute;
+	top:1400px;
+	color:#669966;
+	width:100%;
+	background-color: rgba(192,192,192,0.2);
+}	
+td.middletd:hover{
+	background-image:url(E:\学习资料\web\实验\多肉\lab\小图\2.jpg);
+}
+td img{
+	width:110px;
+}
+.middletable{
+	width:800px;
+	height:400px;
+	position: relative;
+	left:20%;
+}

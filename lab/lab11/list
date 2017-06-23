@@ -3,13 +3,13 @@
 	<head>
 		<meta charset="UTF-8"/>
 		<title>多肉网（列表页）</title>
-		<link rel="stylesheet" href=".\liststyle.css">
+		<link rel="stylesheet" href="csss\liststyle.css"/>
 	</head>
 	<body>
 		<div id="leaddiv">
 			<table class="headtd">
 				<th>
-					<td><img src=".\149795224474837d.png" alt="" id="firstlogo"></td>
+					<td><img src="image\149795224474837d.png" alt="" id="firstlogo"></td>
 					<td><a href="#" class="tha">|&nbsp;&nbsp;&nbsp;&nbsp;首页&nbsp;&nbsp;&nbsp;&nbsp;|</a></td>
 					<td><a href="#" class="tha">|&nbsp;&nbsp;&nbsp;&nbsp;种类介绍&nbsp;&nbsp;&nbsp;&nbsp;|</a></td>
 					<td><a href="#" class="tha">|&nbsp;&nbsp;&nbsp;&nbsp;培养方法&nbsp;&nbsp;&nbsp;&nbsp;|</a></td>
@@ -20,7 +20,7 @@
 				</th>
 			</table>
 		</div>
-		<img src=".\5645621765200_副本.jpg" id="banner" alt="">
+		<img src="image\5645621765200_副本.jpg" id="banner" alt="">
 		<div id="middle1">
 			<a href="#" id="tha"><h1>>&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;>>种类介绍<<&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;&nbsp;<</h1>
 			<table class="middletable"></a>

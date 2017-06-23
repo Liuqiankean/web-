@@ -3,13 +3,13 @@
 	<head>
 		<meta charset="UTF-8"/>
 		<title>多肉网（列表页）</title>
-		<link rel="stylesheet" href="E:\学习资料\web\实验\多肉\lab\liststyle.css">
+		<link rel="stylesheet" href=".\liststyle.css">
 	</head>
 	<body>
 		<div id="leaddiv">
 			<table class="headtd">
 				<th>
-					<td><img src="E:\学习资料\web\实验\多肉\lab\149795224474837d.png" alt="" id="firstlogo"></td>
+					<td><img src=".\149795224474837d.png" alt="" id="firstlogo"></td>
 					<td><a href="#" class="tha">|&nbsp;&nbsp;&nbsp;&nbsp;首页&nbsp;&nbsp;&nbsp;&nbsp;|</a></td>
 					<td><a href="#" class="tha">|&nbsp;&nbsp;&nbsp;&nbsp;种类介绍&nbsp;&nbsp;&nbsp;&nbsp;|</a></td>
 					<td><a href="#" class="tha">|&nbsp;&nbsp;&nbsp;&nbsp;培养方法&nbsp;&nbsp;&nbsp;&nbsp;|</a></td>

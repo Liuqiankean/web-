@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>多肉网（主页）</title>
+		<link rel="stylesheet" href="csss\indexstyle.css"/>
+	</head>
+	<body>
+		<div id="leaddiv">
+			<table>
+				<th>
+					<td><img src="image\149795224474837d.png" alt="" id="firstlogo"></td>
+					<td><a href="#" id="tha">|&nbsp;&nbsp;首页&nbsp;&nbsp;|</a></td>
+					<td><a href="#" id="tha">|&nbsp;&nbsp;种类介绍&nbsp;&nbsp;|</a></td>
+					<td><a href="#" id="tha">|&nbsp;&nbsp;培养方法&nbsp;&nbsp;|</a></td>
+					<td><a href="#" id="tha">|&nbsp;&nbsp;创意空间&nbsp;&nbsp;|</a></td>
+					<td><a href="#" id="tha">|&nbsp;&nbsp;联系我们&nbsp;&nbsp;|</a></td>
+					<td>
+						<input type="text" class="box" class="inputText" placeholder="搜索"  name="s" id="s" />
+          				<button class="btn" title="Submit Search">搜索</button> 
+          			</td>
+				</th>
+			</table>
+		</div>
+		<div id="firstdiv"></div>
+			<img src="image\564561f90d41f.jpg" alt="">
+			<div id="seconddiv">
+				<div>
+					<img src="image\149795246735002c.png" id="logo"/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<form action="#" align="center" method="GET">
+						用户名：<input type="text" name="name"/>
+						<hr/>密&nbsp;&nbsp;码：<input type="password" name="password"/>
+						<hr/>
+						<input type="submit" value="登录"/>
+						<input type="reset" value="取消"/>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div id="littlediv1">
+				<a href="#"><h2>>&nbsp;>&nbsp;网站简介</h2></a>
+				<p>多肉网是由大学生自主制作的一套专门用来介绍与多肉有关的内容，网页有大量关于多肉的品种介绍，以及各自的培养方法。是多肉爱好者的实用工具。</p>
+			</div>
+			<div id="littlediv2">
+				<a href="#"><h2>&nbsp;&nbsp;&nbsp;>&nbsp;>&nbsp;最新动态</h2></a>
+				<ul>
+					<li><a href="#">吉娃莲2017/6/22</a></li>
+					<br/>
+					<li><a href="#">珍珠吊兰/佛珠2017/6/22</a></li>
+					<br/>
+					<li><a href="#">姬胧月2017/6/21</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="healdiv">	
+			<p>商务合作电话:888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;版权所有，盗版必究</p>
+		</div>		
+	</body>
+</html>

@@ -35,6 +35,23 @@ a{
 	color:white;
 	font-size:22px;	
 }
+h6{
+	font-size: 12px;
+	color:gray;
+	font-weight:solid;
+	position: relative;
+	left:15%;
+	top:62px;
+	font-family: "宋体";
+}
+h6 a{
+	color:gray;
+	font-size: 12px;
+	font-family: "宋体";
+}
+h6 a:hover{
+	text-decoration: underline;	
+}
 td:hover{
 	background-color: rgba(192,192,192,0.3);
 }

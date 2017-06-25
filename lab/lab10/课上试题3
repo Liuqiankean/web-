@@ -13,7 +13,7 @@
 			</p>
 			<p>
 				<input type="submit" name="submit" value="登录"/>
-				<input type="submit" name="submit" value="取消"/>	
+				<input type="submit" name="reset" value="取消"/>	
 			</p>
 		</form>
 	</body>

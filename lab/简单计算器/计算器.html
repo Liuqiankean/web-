@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+	<head>
+		<title>javascript</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<script src="javascript.js"></script>
+	<body  onload="click();">
+		<table>
+			<tr>
+				<td colspan="3" id="result"></td>
+				<td><button onclick="clearData();" value="c">c</button></td>
+			</tr>
+
+			<tr>
+				<td><button onclick="showData('1')" value="1">1</button></td>
+				<td><button onclick="showData('2');" value="2">2</button></td>
+				<td><button value="3" onclick="showData('3');">3</button></td>
+				<td><button onclick="showData('+')" value="+">+</button></td>
+			</tr>
+
+			<tr>
+				<td><button onclick="showData('4');" value="4">4</button></td>
+				<td><button onclick="showData('5');" value="5">5</button></td>
+				<td><button onclick="showData('6');" value="6">6</button></td>
+				<td><button onclick="showData('-');" value="-">-</button></td>
+			</tr>
+
+			<tr>
+				<td><button onclick="showData('7');" value="7">7</button></td>
+				<td><button onclick="showData('8');" value="8">8</button></td>
+				<td><button onclick="showData('9');" value="9">9</button></td>
+				<td><button onclick="showData('*');" value="*">*</button></td>
+			</tr>
+
+			<tr>
+				<td><button onclick="showData('0')" value="0">0</button></td>
+				<td><button onclick="showData('.')" value=".">.</button></td>
+				<td><button onclick="caculate();" value="=">=</button></td>
+				<td><button onclick="showData('/')" value="/">/</button></td>
+			</tr>
+		</table>
+	</body>
+</html>

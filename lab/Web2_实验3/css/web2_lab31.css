@@ -1,0 +1,21 @@
+#title{
+	width: 400px;
+	height: 25px;
+	background-color:#eeeeff;
+}
+h5{
+	position: relative;
+	top:20%;
+}
+#comment{
+	position:relative;
+	left:280px;
+}
+#star{
+	height: 40px;
+}
+img
+{
+	position: relative;
+	top:20%;
+}

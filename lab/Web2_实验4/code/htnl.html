@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>图片自动滚动</title>
+<style type="text/css">
+#picScroll{                                             
+white-space: nowrap;
+overflow:hidden;        
+width: 600px;                            
+}
+img{
+width:250px;
+height:150px;
+} 
+</style>
+</head>
+<body onload="zhouqi()">                                  
+<div id="picScroll" onmouseover="stop()" onmouseout="zhouqi()">
+<span id="picScrol1">
+<img src="images/1.jpg">
+<img src="images/2.jpg">
+<img src="images/3.jpg">
+<img src="images/4.jpg">
+
+<img src="images/5.jpg">
+<img src="images/6.jpg">
+<img src="images/7.jpg">
+<img src="images/8.jpg">
+</span>
+<span id="picScrol2">                                 
+<img src="images/1.jpg">                       
+<img src="images/2.jpg">                 
+<img src="images/3.jpg">
+
+<img src="images/4.jpg">
+
+<img src="images/5.jpg">
+<img src="images/6.jpg">
+<img src="images/7.jpg">
+<img src="images/8.jpg">
+
+</span>
+</div>
+
+<script type="text/javascript">
+//offsetwidth 在JS中是获取元素的宽
+//scrollLeft  代表页面利用滚动条滚动到右侧时，隐藏在滚动条左侧的页面的宽度  本例滚动条隐藏 不显示
+var one=document.getElementById('picScroll');          //获取div对象
+var two=document.getElementById('picScrol1');         //获取第一个span对象
+var three=document.getElementById('picScrol2');
+     //获取第二个span对象
+
+
+function changeToLeft(){
+if(one.scrollLeft-two.offsetWidth>0)            
+//如果向左侧隐藏部分的宽度大于图片的总宽度 
+one.scrollLeft=0;                                    
+//设置div的向左隐藏的宽度为0 这样图片就会再次滚动
+else                                                                  
+//即实现循环功能              注意滚动是div进行的 
+one.scrollLeft+=1;                                  
+//如果所有图片没有都滚动到左侧 就实现向左滚动一像素
+}                                                                                        
+//one.scrollLeft+=1; 是实现滚动效果的关键 而上面的if判
+  //断是实现循环的关键
+
+
+function zhouqi(){                                                   //设置周期执行
+t=setInterval("changeToLeft()",10);   //changeToLeft,10
+}
+
+
+function stop(){                                                     //设置停止周期执行
+clearInterval(t);
+}
+</script>
+</body>
+</html>

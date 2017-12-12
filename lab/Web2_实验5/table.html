@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>表格</title>
+		<meta charset="utf-8" />
+		<style type="text/css">
+			*{
+				font-size: 36px;
+			}
+			tr{
+				height: 30px;
+			}
+		</style>
+		<script src="lab5/jquery-3.2.1.slim.min.js">
+		</script>
+	</head>
+	<body>
+		<table width="1000px" border="1">
+			<tr height="30px">
+				<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+		</table>
+		<input type="button" name="" id="add" value="添加一行" style="margin-left:840px;" onclick="AddLine()"/>
+		<input type="button" name="" id="delete" value="删除一行" style="margin-left:840px;" onclick="RemoveLine()"/>
+	</body>
+	<script type="text/javascript">		
+		function AddLine()
+		{
+			var table=document.getElementsByTagName("table")[0];
+			table.innerHTML+="<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>"
+		}
+		function RemoveLine()
+		{
+			var trs=document.getElementsByTagName("tr");
+			trs[trs.length-1].parentNode.removeChild(trs[trs.length-1]);
+		}
+	</script>
+</html>

@@ -1,0 +1,63 @@
+﻿<html>
+<head>
+	<title>用户注册</title>
+	<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+	<style>
+		b{
+			color:red;
+			font-size:10px;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		用&nbsp;户&nbsp;名：<input type="text" id="username" value="请输入用户名"/>
+		<br/>
+		<br/>
+		密&nbsp;&nbsp;&nbsp;&nbsp;码：<input type="password" id="password1" value="请输入密码"/>
+		<br/>
+		<br/>
+		确认密码：<input type="password" id="password2" value="请输入密码"/>
+	</form>
+</body>
+<script type="text/javascript">
+		$(document).ready(function(){
+			$("#username").blur(function(){
+				if($("#username").val()=="")
+				{
+					$("#username").after("<b>用户名不能为空！</b>");
+				}
+				
+			});
+			$("#username").focus(function(){
+				$("b").remove();
+			});
+			$("#password1").blur(function(){
+				if($("#password1").val()=="")
+				{
+					$("#password1").after("<b>密码不能为空！</b>");
+				}
+				
+			});
+			$("#password1").focus(function(){
+				$("b").remove();
+			});
+			$("#password2").blur(function(){
+				if($("#password2").val()=="")
+				{
+					$("#password2").after("<b>密码不能为空！</b>");
+				}
+				else if($("#password1").val()==$("#password2").val())
+				{}
+				else{
+					$("#password2").after("<b>两次密码不一致！</b>");
+				};	
+			});
+			$("#password2").focus(function(){
+				$("b").remove();
+			});
+			
+				
+		})
+	</script>
+</html>

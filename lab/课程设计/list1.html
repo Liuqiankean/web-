@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>多肉网（列表页）</title>
+		<link rel="stylesheet" href="csss\liststyle.css">
+		<script src="jQuery/jquery-3.2.1.js"></script>
+		<style type="text/css">
+		    /*整个广告div的css*/
+			#ad{
+				width:800px;
+				height:220px;
+				position:absolute;
+				top:60%;
+				left:18%;
+			}
+			/*取消小圆点*/
+			#ad li{
+				list-style:none;
+			}
+			#ad_img li{
+				display:none;
+			}
+			/*角落显示数字的ul*/
+			#ad_num{
+				overflow:hidden;
+				position:absolute;
+				bottom:10px;
+				right:10px;
+				color:#fff;
+			}
+			/*数字的浮动*/
+			#ad_num li{
+				border:#fff solid 1px;
+				float:left;
+				margin:0px 5px;
+				padding:3px 10px;
+			}
+			.numsover{
+				background-color:#669966;
+				color:#fff;
+			}
+			.numsout{}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li><img src="image\149795224474837d.png" alt=""  id="firstimg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="box" class="inputText" placeholder="搜索"  name="s" id="s" />
+		        <button class="btn" title="Submit Search">搜索</button></li&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>
+		</ul>
+		<ul id="nav">
+			
+				<li><a  href="#"><br/>|&nbsp;&nbsp;&nbsp;&nbsp;首页&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+				<li><a href="#"><br/>|&nbsp;&nbsp;&nbsp;&nbsp;种类介绍&nbsp;&nbsp;&nbsp;&nbsp;|</a>
+					<ul>
+						<li><a href="#"><br/>根茎类</a></li>
+						<li><a href="#"><br/>球茎类</a></li>
+					</ul>
+				</li>
+				<li><a href="#"><br/>|&nbsp;&nbsp;&nbsp;&nbsp;培养方法&nbsp;&nbsp;&nbsp;|</a>
+					<ul>
+						<li><a href="#"><br/>土壤</a></li>
+						<li><a href="#"><br/>营养液</a></li>
+					</ul>
+				</li>
+				<li><a href="#"><br/>|&nbsp;&nbsp;&nbsp;&nbsp;创意达人&nbsp;&nbsp;&nbsp;|</a>
+				</li>
+				<li><a href="#"><br/>|&nbsp;&nbsp;&nbsp;&nbsp;联系我们&nbsp;&nbsp;&nbsp;&nbsp;|</a>
+				</li>
+			</ul>
+		<!-- <div id="leaddiv">
+			<table class="headtd">
+				<th>
+					<td id="firstimg"><img src="image\149795224474837d.png" alt="" id="firstlogo"></td>
+					<td><a href="#" class="tha">|&nbsp;&nbsp;&nbsp;&nbsp;首页&nbsp;&nbsp;&nbsp;&nbsp;|</a></td>
+					<td id="typeintroduction"><a href="#" class="tha" >|&nbsp;&nbsp;&nbsp;&nbsp;种类介绍&nbsp;&nbsp;&nbsp;&nbsp;|</a></td>
+					<td><a href="#" class="tha">|&nbsp;&nbsp;&nbsp;&nbsp;培养方法&nbsp;&nbsp;&nbsp;&nbsp;|</a></td>
+					<td><a href="#" class="tha">|&nbsp;&nbsp;&nbsp;&nbsp;创意达人&nbsp;&nbsp;&nbsp;&nbsp;|</a></td>
+					<td><a href="#" class="tha">|&nbsp;&nbsp;&nbsp;&nbsp;联系我们&nbsp;&nbsp;&nbsp;&nbsp;|</a></td>
+					<td><input type="text" class="box" class="inputText" placeholder="搜索"  name="s" id="s" />
+		          			<button class="btn" title="Submit Search">搜索</button></td>
+				</th>
+			</table>
+			
+		</div> -->
+		<div id="jumpform">
+			<br/>
+			<img src="image/149795246735002c.png" id="logo"/>
+			<a href="#" id="close">x</a>
+			<br/>
+			<br/>
+			<br/>
+			<form action="#" align="center" method="GET">
+			用户名：<input type="text" name="name"/>
+			<hr/>密&nbsp;&nbsp;码：<input type="password" name="password"/>
+			<hr/>
+			<input type="submit" value="登录"/>
+			<input type="reset" value="取消"/>
+			</form>
+		</div>
+		<div id="ad">
+			<ul id="ad_img">
+				<li><img src="image\5645621765200_副本.jpg"  src="src/ad1.jpg" width="800" height="220"></li>
+				<li><img src="image\ppt1.jpg"  src="src/ad1.jpg" width="800" height="220"></li>
+				<li><img src="image\ppt5.jpg"  src="src/ad1.jpg" width="800" height="220"></li>
+				<li><img src="image\ppt3.jpg"  src="src/ad1.jpg" width="800" height="220"></li>
+				<li><img src="image\ppt2.jpg"  src="src/ad1.jpg" width="800" height="220"></li>
+				<li><img src="image\ppt4.jpg"  src="src/ad1.jpg" width="800" height="220"></li>
+			</ul>	
+			<ul id="ad_num">
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+				<li>6</li>
+			</ul>	
+		</div>
+		<div id="healdiv">
+			<p>16级 软件6班 2016011623 刘倩倩</p>
+			<p>温馨提示：①弹出框效果，请点击logo；②下拉菜单导航，请滑过菜单；③幻灯片效果，请鼠标滑过下标</p>
+		</div>
+	</body>
+	<script type="text/javascript">
+		function changeImg(){
+			//获取图片的索引的数组
+			var $imgs=$("#ad_img li");
+			var $nums=$("#ad_num li");
+
+			var isStop=false;
+			var index=0;
+
+			$nums.eq(index).addClass("numsover");
+			$nums.eq(index).siblings().removeClass("numsover");
+			$imgs.eq(index).show();
+
+			//鼠标悬停在数字上的事件
+			$nums.mouseover(function(){
+					isStop=true;
+					//先改数字背景
+					$(this).addClass("numsover").siblings().removeClass("numsover");
+
+					//图片和数字的索引是相对的，多以获取当前数字的索引就可以获得图片，从而对图片操作
+					index=$nums.index(this);
+					$imgs.eq(index).show("slow");
+					$imgs.eq(index).siblings().hide("fast");
+			}).mouseout(function(){isStop=false});
+			//设置循环
+			setInterval(function(){
+				if(isStop)return;
+				if(index>=6) index=-1;
+				index++;
+
+				$nums.eq(index).addClass("numsover").siblings().removeClass("numsover");
+
+				$imgs.eq(index).show("slow");
+				$imgs.eq(index).siblings().hide("slow");
+
+			},4000);
+		}
+		
+		$(document).ready(function(){
+		
+			changeImg();
+			var liNodes = document.getElementsByTagName("li");
+			for (var i=0; i<liNodes.length; i++)
+			{
+				liNodes[i].onmouseover = function(){
+					this.className = "subMenuShow";
+				}
+				liNodes[i].onmouseout = function(){
+					this.className = "";
+				}
+			}
+			$("#firstimg").mouseover(function(){$("#firstimg").css("background-color","rgba(192,192,192,0.3)");}).mouseout(function(){$("#firstimg").css("background-color","");}).click(
+				function(){
+					$("#jumpform").css("display","block");
+					
+				});
+			$("#close").click(
+				function(){
+					$("#jumpform").css("display","none");
+				});	
+			/*$("#typeintroduction").click(
+				function(){
+					$("#firstul").css("display","block");
+			});
+			$("#typeintroduction").mouseout(
+				function(){
+					$("#firstul").css("display","none");
+			});
+			$("#firstul-li1").click(
+				function(){
+					$("#secondul1").css("display","block");
+			});
+			$("#firstul-li1").mouseout(
+				function(){
+					$("#secondul1").css("display","none");
+			});
+			$("#firstul-li2").mouseout(
+				function(){
+					$("#secondul2").css("display","none");
+			});*/
+
+		});
+	
+		
+		/*new PopupLayer({trigger:"#ele3",popupBlk:"#blk3",closeBtn:"#close1",useFx:true});*/
+		
+	</script>
+</html>
